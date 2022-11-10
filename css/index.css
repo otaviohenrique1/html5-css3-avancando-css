@@ -1,3 +1,8 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* CSS do header */
 header {
   background: #BBBBBB;
   padding: 20px 0;
@@ -33,57 +38,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.banner {
-  width: 100%;
-}
-
-.principal {
-  /* background: #CCCCCC; */
-  padding: 30px;
-}
-
-/* .titulo-principal {
-  padding-left: 20px;
-} */
-
-/* .titulo-centralizado {
-  text-align: center;
-} */
-
-/* p {
-  text-align: center;
-}
-
-#missao {
-  font-size: 20px;
-} */
-
-/* p em strong {
-  color: red;
-} */
-
-.beneficios {
-  background: #ffffff;
-  padding: 20px;
-}
-
-/* .beneficios ul {
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
-} */
-
-/*
-  display: block; => ocupa a largura inteira da página.
-  display: inline; => não deixa alterar, por exemplo, o espaçamento externo e interno.
-  display: inline-block; => tem as caracteristicas do inline e do block, bloqueia uma largura, mas essa largura é fixa e deixa também mexer na largura e nos espaçamentos interno e externo.
-*/
-
-/* .itens {
-  font-style: italic;
-} */
-
+/* CSS do Rodape */
 footer {
   text-align: center;
   background: url("../img/bg.jpg");
@@ -94,6 +49,11 @@ footer {
   color: #FFFFFF;
   font-size: 13px;
   margin: 20px 0 0;
+}
+
+/* CSS da pagina principal */
+.banner {
+  width: 100%;
 }
 
 .titulo-principal {
@@ -109,6 +69,9 @@ footer {
 
 .principal strong {
   font-weight: bold;
+}
+
+.principal em {
   font-style: italic;
 }
 
