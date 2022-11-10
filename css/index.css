@@ -52,11 +52,6 @@ footer {
 }
 
 /* CSS da pagina principal */
-main {
-  width: 940px;
-  margin: 0 auto;
-}
-
 .banner {
   width: 100%;
 }
@@ -71,6 +66,8 @@ main {
 .principal {
   padding: 3em 0;
   background: #FEFEFE;
+  width: 940px;
+  margin: 0 auto;
 }
 
 .principal p {
@@ -93,11 +90,17 @@ main {
 
 .mapa {
   padding: 3em 0;
+  background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa p {
   margin: 0 0 2em;
   text-align: center;
+}
+
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
 }
 
 .video {
