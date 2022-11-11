@@ -139,3 +139,47 @@ footer {
 .itens::before {
   content: "🟊";
 }
+
+/*
+  - Seletor >, para acessar os filhos de determinado elemento.
+  Exemplo: 'main > p' => Todas as tag 'p' que são filhas diretas de 'main'
+  Exemplo:
+    main > p {
+      background: red;
+    }
+*/
+
+/*
+  - Seletor +, para acessar o primeiro irmão de determinado elemento.
+  Exemplo: 'img + p' => Seleciona a tag 'p' que vem depois de uma 'imagem'
+  Exemplo:
+    img + p {
+      background: blue;
+    }
+*/
+
+/*
+  - Seletor ~, para acessar todos os irmãos de determinado elemento.
+  Exemplo: 'img ~ p' => Seleciona todas as tags 'p' que vem depois de uma 'imagem'
+  Exemplo:
+    img ~ p {
+      background: yellow;
+    }
+*/
+
+/*
+  - Seletor not, para acessar os elementos, exceto algum. 
+  Exemplo: '.principal p:not(#missao)' Seleciona todos as tags 'p' que não tem o id 'missao'
+  Exemplo:
+    .principal p:not(#missao) {
+      background: orange;
+    }
+*/
+
+/*
+  - Cálculos com CSS
+  Exemplo:
+    .utensilios {
+      width: calc(40% - 26px);
+    }
+*/
