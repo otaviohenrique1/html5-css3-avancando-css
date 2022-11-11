@@ -90,7 +90,7 @@ footer {
 
 .mapa {
   padding: 3em 0;
-  background: linear-gradient(#FEFEFE, #888888);
+  background: linear-gradient(#FEFEFE, #888888 );
 }
 
 .mapa p {
@@ -134,4 +134,8 @@ footer {
 
 .itens:first-child {
   font-weight: bold;
+}
+
+.itens::before {
+  content: "🟊";
 }
